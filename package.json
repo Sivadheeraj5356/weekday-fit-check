@@ -1,0 +1,14 @@
+{
+  "name": "weekday-fit-check",
+  "version": "1.0.0",
+  "description": "Structured readiness checks for Weekday software internship listings",
+  "type": "module",
+  "main": "src/checker.js",
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js examples/weekday-listing.json examples/candidate-profile.json"
+  },
+  "keywords": ["weekday", "internship", "application-readiness"],
+  "author": "Siva Dheeraj",
+  "license": "MIT"
+}
